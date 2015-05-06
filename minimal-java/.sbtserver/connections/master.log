@@ -1,0 +1,7 @@
+New log file opened at Wed May 06 10:58:45 CEST 2015 by 6596@c126-13
+Taking next connection to: 39889
+New client attempting to connect on port: 50861-39889
+  Address = /137.194.35.173:39889
+This client on port 50861 has uuid 3b2df659-9e03-4124-8170-60dc837eb277 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-3b2df659-9e03-4124-8170-60dc837eb277
+Taking next connection to: 39889
