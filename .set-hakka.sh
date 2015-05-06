@@ -17,8 +17,8 @@ then
     wget --progress=bar http://downloads.typesafe.com/typesafe-activator/1.3.2/typesafe-activator-$version.zip
   fi
   echo Extracting…
-  unzip -q typesafe-activator-$version.zip -d typesafe-activator-$version
+  unzip -q typesafe-activator-$version.zip -d typesafe
 fi
-PATH=$PATH:$directory/typesafe-activator-$version
+PATH=$PATH:$directory/typesafe/activator-$version
 echo Set up finished.
 cd $current
