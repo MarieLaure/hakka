@@ -1,0 +1,42 @@
+New log file opened at Mon May 11 06:49:48 UTC 2015 by 5256@Host-001.lan
+Taking next connection to: 58115
+New client attempting to connect on port: 59270-58115
+  Address = /192.168.1.95:58115
+This client on port 59270 has uuid e7b101f2-7556-4355-91ce-bb15f0f16d88 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-e7b101f2-7556-4355-91ce-bb15f0f16d88
+Taking next connection to: 58115
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 58115
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 58115
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 58115
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 58115
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 58115
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 58115
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 58115
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 58115
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 58115
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 58115
+Server socket closed java.net.SocketException: Socket closed
+Server socket thread exiting.
+1 clients open, will close them...
+All client sockets have been closed.
+Closing the 5256@Host-001.lan logs at Mon May 11 07:21:38 UTC 2015, goodbye.
