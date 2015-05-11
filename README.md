@@ -6,7 +6,7 @@ Projet d'équipe INF342
 
 Typesafe-activator est une surcouche à pas mal de chose, fournie en plus avec quelques plugins sympas. Néanmoins il reste reste à utiliser un IDE digne de ce nom, par exemple éclipse.
 
-Un script est en cours d'écriture pour automatiser la procédure suivante.
+Un script est en cours d'écriture pour automatiser la procédure suivante sur les machines de l'école (ne marche qu'à moitié pour l'instant).
 
  * Télécharger, installer et ajouter à $PATH `sbt` (on en a besoin pour générer un projet éclipse je crois, en tout cas ça marche avec).
  * Dans le répertoire du projet, exécuter `activator eclipse`, ce qui crée un projet Eclipse.
