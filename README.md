@@ -11,7 +11,7 @@ Un script est en cours d'écriture pour automatiser la procédure suivante.
  * Télécharger, installer et ajouter à $PATH `sbt` (on en a besoin pour générer un projet éclipse je crois, en tout cas ça marche avec).
  * Dans le répertoire du projet, exécuter `activator eclipse`, ce qui crée un projet Eclipse.
  * Télécharger, installer et ajouter à $PATH `mvn` (requis).
- * Ajouter [http://eclipse.org/m2e/](ce plugin) à Eclipse pour faire le lien entre ce dernier et maven.
+ * Ajouter [ce plugin](http://eclipse.org/m2e/) à Eclipse pour faire le lien entre ce dernier et maven.
  * Penser à vérifier qu'Eclipse construit bien les index des dépôts et répertoires.
  * Importer le projet dans Eclipse et constater les erreurs de dépendances.
  * Le projet est reconnu comme un projet Java (avec un petit `J` sur l'icône de l'arborescence). Configurer le projet pour le transformer en projet Maven (clic droit sur le projet → Configure → Maven). Un `M` doit alors apparaître à côté du `J`.
