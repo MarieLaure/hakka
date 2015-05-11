@@ -18,4 +18,4 @@ Un script est en cours d'écriture pour automatiser la procédure suivante sur l
  * Puisque __*RIEN*__ sur Stack Overflow ou le site officiel n'explique comment gérer élégament les dépendances, on contourne un peu ça en passant par maven. Editer le fichier de configuration du projet maven (`pom.xml`) en s'inspirant de celui fournit dans `hello-akka-mven`.
  * Idée : cependant, au lieu de faire ça pour chaque projet java, on peut optimiser ça en paramétrant correctement `~/.m2/settings.xml`.
  * Rafraîchir le projet Eclipse (clic droit dessus), le projet maven lui-même (clic droit sur le projet → Maven → Update) et enfin reconstruire les index.
- * Les imports sont (dans mon cas) correctement interprétés mais Eclipse peut parfois signaler des exceptions non gérées dans le code par défaut du tutoriel.
+ * Les imports sont (dans mon cas) correctement interprétés mais Eclipse peut parfois signaler des exceptions non gérées dans le code par défaut du tutoriel (LOL).
