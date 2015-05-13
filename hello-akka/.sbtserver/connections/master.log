@@ -1,0 +1,7 @@
+New log file opened at Wed May 13 12:00:29 CEST 2015 by 6204@Bumblebee
+Taking next connection to: 57404
+New client attempting to connect on port: 57405-57404
+  Address = /192.168.56.1:57404
+This client on port 57405 has uuid 8421f7f0-7287-4820-baed-979edef818d3 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-8421f7f0-7287-4820-baed-979edef818d3
+Taking next connection to: 57404

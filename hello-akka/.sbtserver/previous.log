@@ -1,0 +1,684 @@
+New log file opened at Mon May 11 09:03:01 CEST 2015 by 188@Bumblebee
+jvm 188@Bumblebee
+jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.40-b25
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=C:\Users\Mel\hello-akka
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory C:\Users\Mel\hello-akka\project
+[Loading] Found non-root projects 
+[Loading] Done in C:\Users\Mel\hello-akka\project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in C:\Users\Mel\hello-akka\project, returning: (hello-akka-build)
+Loading project definition from C:\Users\Mel\hello-akka\project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@30db099c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory C:\Users\Mel\hello-akka
+[Loading] Found non-root projects 
+[Loading] Done in C:\Users\Mel\hello-akka, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(play.Play))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(play.Play),Set(Atom(com.typesafe.sbt.webdriver.SbtWebDriver))), Clause(Atom(play.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.PlayJava),Set(Atom(play.Play))), Clause(Atom(play.PlayScala),Set(Atom(play.Play))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.webdriver.SbtWebDriver),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(And(Set(Atom(sbt.plugins.BackgroundRunPlugin), Atom(play.Play), Atom(sbt.plugins.SerializersPlugin))),Set(Atom(play.sbt.forkrun.PlayForkRun))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.webdriver.SbtWebDriver))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in C:\Users\Mel\hello-akka, returning: (hello-akka)
+Set current project to hello-akka (in build file:/C:/Users/Mel/hello-akka/)
+Reapplying settings...
+Set current project to hello-akka (in build file:/C:/Users/Mel/hello-akka/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@711686da, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 5 s, completed May 11, 2015 9:03:34 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Mel/hello-akka/}hello-akka/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@4993ca4f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 2 s, completed May 11, 2015 9:03:36 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Mel/hello-akka/}hello-akka/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@5dbbb5a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Read from stdout: Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+Total time: 2 s, completed May 11, 2015 9:03:38 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@658947e0, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Read from stdout: C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:60:  error: cannot find symbol
+C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:60:  error: cannot find symbol
+Read from stdout: presenceDetector.tell(new EnterTheRoom(), getSelf());
+Read from stdout: ^
+                presenceDetector.tell(new EnterTheRoom(), getSelf());
+                ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 6 s, completed May 11, 2015 10:21:50 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@552e4b9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Read from stdout: C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:60:  error: cannot find symbol
+C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:60:  error: cannot find symbol
+Read from stdout: presenceDetector.tell(new EnterTheRoom(), getSelf());
+Read from stdout: ^
+                presenceDetector.tell(new EnterTheRoom(), getSelf());
+                ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 3 s, completed May 11, 2015 10:23:51 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@29202abe, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Read from stdout: C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:26:  error: variable system not initialized in the default constructor
+C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:26:  error: variable system not initialized in the default constructor
+Read from stdout: final static ActorSystem system;
+Read from stdout: ^
+    final static ActorSystem system;
+                             ^
+Read from stdout: C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:27:  error: variable human not initialized in the default constructor
+C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:27:  error: variable human not initialized in the default constructor
+Read from stdout: final static ActorRef human;
+Read from stdout: ^
+    final static ActorRef human;
+                          ^
+Read from stdout: C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:28:  error: variable presenceDetector not initialized in the default constructor
+C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:28:  error: variable presenceDetector not initialized in the default constructor
+Read from stdout: final static ActorRef presenceDetector;
+Read from stdout: ^
+    final static ActorRef presenceDetector;
+                          ^
+Read from stdout: C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:29:  error: variable lamp not initialized in the default constructor
+C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:29:  error: variable lamp not initialized in the default constructor
+Read from stdout: final static ActorRef lamp;
+Read from stdout: ^
+    final static ActorRef lamp;
+                          ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 3 s, completed May 11, 2015 10:28:41 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@3ed50c0f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Read from stdout: C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:26:  error: variable system not initialized in the default constructor
+C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:26:  error: variable system not initialized in the default constructor
+Read from stdout: final static ActorSystem system;
+Read from stdout: ^
+    final static ActorSystem system;
+                             ^
+Read from stdout: C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:27:  error: variable human not initialized in the default constructor
+C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:27:  error: variable human not initialized in the default constructor
+Read from stdout: final static ActorRef human;
+Read from stdout: ^
+    final static ActorRef human;
+                          ^
+Read from stdout: C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:28:  error: variable presenceDetector not initialized in the default constructor
+C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:28:  error: variable presenceDetector not initialized in the default constructor
+Read from stdout: final static ActorRef presenceDetector;
+Read from stdout: ^
+    final static ActorRef presenceDetector;
+                          ^
+Read from stdout: C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:29:  error: variable lamp not initialized in the default constructor
+C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java:29:  error: variable lamp not initialized in the default constructor
+Read from stdout: final static ActorRef lamp;
+Read from stdout: ^
+    final static ActorRef lamp;
+                          ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 3 s, completed May 11, 2015 10:29:14 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@64527f6d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Java compilation took 2.364626813 s
+Java analysis took 0.434002324 s
+Java compile + analysis took 2.811034917 s
+Invalidating C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java...
+Invalidating (transitively) by inheritance from C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java...
+Initial set of included nodes: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+Invalidated by transitive inheritance dependency: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+The C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java source file has the following regular definitions changed:
+	lamp, system, presenceDetector, human.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 4 s, completed May 11, 2015 10:30:52 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7766b8d9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Java compilation took 2.01316365 s
+Java analysis took 0.127380285 s
+Java compile + analysis took 2.174940906 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 3 s, completed May 11, 2015 10:31:20 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HelloAkkaJava
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@564117f1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 1 s, completed May 11, 2015 10:31:34 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 1
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@167dc639, check cycles: false
+Total time: 0 s, completed May 11, 2015 10:32:14 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+Exception in thread "sbt-bg-threads-1" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1938)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1938)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1938)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@300474f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Java compilation took 1.949717651 s
+Java analysis took 0.13333747 s
+Java compile + analysis took 2.099076629 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 3 s, completed May 11, 2015 10:33:09 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1843c79b, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Java compilation took 2.054400202 s
+Java analysis took 0.144664466 s
+Java compile + analysis took 2.234837679 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 3 s, completed May 11, 2015 10:33:26 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HelloAkkaJava
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@121d5ba9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 1 s, completed May 11, 2015 10:33:30 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 2
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@1bc2e312, check cycles: false
+Total time: 0 s, completed May 11, 2015 10:34:08 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+Exception in thread "sbt-bg-threads-3" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1938)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1938)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1938)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@724ed0c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Java compilation took 1.780262604 s
+Java analysis took 0.106985621 s
+Java compile + analysis took 1.898662702 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 3 s, completed May 11, 2015 10:35:55 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@64a0c27d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Mel\hello-akka\src\main\java\HelloAkkaJava.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Mel\hello-akka\target\scala-2.11\classes...
+Java compilation took 2.031003514 s
+Java analysis took 0.088124105 s
+Java compile + analysis took 2.126210004 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 3 s, completed May 11, 2015 10:37:53 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HelloAkkaJava
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@7aec34ee, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 1 s, completed May 11, 2015 10:38:00 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 3
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@7cea434f, check cycles: false
+Total time: 0 s, completed May 11, 2015 10:38:46 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+Exception in thread "sbt-bg-threads-5" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1938)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1938)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1938)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+> backgroundRunMain HelloAkkaJava
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@58d89786, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 1 s, completed May 12, 2015 12:22:34 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 4
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@31a2ebc, check cycles: false
+Total time: 0 s, completed May 12, 2015 12:23:14 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+Exception in thread "sbt-bg-threads-7" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1938)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1938)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1938)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
